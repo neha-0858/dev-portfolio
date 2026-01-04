@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+/* Navbar */
+nav {
+    background: #004080;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #002b5c;
+}
+
+/* Search Bar */
+.search-bar {
+    text-align: center;
+    padding: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background: #002b5c;
+    color: white;
+    border: none;
+}
+
+/* Library Image */
+.library-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Books */
+.book-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.book-card {
+    background: white;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.book-card img {
+    width: 100%;
+    height: 180px;
+}
+
+.book-card button {
+    background: #002b5c;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 100%;
+}
+
+/* Booking */
+.booking form {
+    background: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.booking input, .booking select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.booking button {
+    background: green;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+/* Login Page */
+.login-body {
+    background: #002b5c;
+}
+
+.login-box {
+    background: white;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.login-box button {
+    background: #002b5c;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .book-card {
+        width: 90%;
+    }
+
+    .library-img {
+        height: 200px;
+    }
+}
